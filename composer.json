@@ -1,5 +1,6 @@
 {
     "name" : "internet/send-file-to-client",
+    "description" : "clase para servir archivos con 'HTTP/1.1 206 Partial Content'",
     "repositories" : [ {
         "type" : "composer",
         "url" : "https://packagist.org/"
