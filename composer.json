@@ -1,0 +1,21 @@
+{
+    "name" : "internet/send-file-to-client",
+    "repositories" : [ {
+        "type" : "composer",
+        "url" : "https://packagist.org/"
+    } ],
+    "license" : "EUPL-1.1",
+    "keywords" : [ "php" ],
+    "autoload" : {
+        "psr-4" : {
+            "SendFileToClient\\" : "src/"
+        }
+    },
+    "type" : "library",
+    "homepage" : "https://git.irontec.com/internet/send-file-to-client",
+    "authors" : [ {
+        "name" : "Daniel Rendon Arias",
+        "email" : "daniel@irontec.com",
+        "homepage" : "https://github.com/ddniel16"
+    } ]
+}
