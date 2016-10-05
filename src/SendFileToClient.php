@@ -1,7 +1,19 @@
 <?php
 
+/**
+ * En este archivo se declara la clase "SendFileToClient".
+ * @link    https://github.com/ddniel16
+ * @author  ddniel16 <dani@irontec.com>
+ * @license https://opensource.org/licenses/EUPL-1.1 European Union Public Licence (V. 1.1)
+ * @package SendFileToClient\SendFileToClient
+ */
 namespace SendFileToClient;
 
+/**
+ * Esta clase en encagar de enviar un archivo grande en partes con el estado:
+ * HTTP/1.1 206 Partial Content
+ * @version 0.0.3
+ */
 class SendFileToClient
 {
 
