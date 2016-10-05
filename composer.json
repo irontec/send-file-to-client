@@ -6,7 +6,7 @@
         "url" : "https://packagist.org/"
     } ],
     "license" : "EUPL-1.1",
-    "keywords" : [ "php" ],
+    "keywords" : [ "php", "http", "206", "Partial Content" ],
     "autoload" : {
         "psr-4" : {
             "SendFileToClient\\" : "src/"
